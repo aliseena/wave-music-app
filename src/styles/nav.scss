@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1rem;
+  button {
+    background: transparent;
+    padding: 0.5rem 0.8rem;
+    border: 2px solid #3b3b3b;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    &:hover {
+      background-color: #3b3b3b;
+      border: 2px solid #3b3b3b;
+      color: #fff;
+    }
+    &:svg {
+      padding-left: 5px;
+    }
+    @media screen and (max-width: 768px) {
+      z-index: 10;
+    }
+  }
+}
